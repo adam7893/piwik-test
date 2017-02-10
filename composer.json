@@ -71,7 +71,6 @@
                     "profiling",
                     "performance"
                 ],
-                "homepage": "http://pecl.php.net/package/xhprof",
                 "license": "Apache-2.0",
                 "require": {
                     "php": ">=5.2.0"
