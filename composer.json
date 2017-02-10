@@ -83,7 +83,12 @@
                 },
                 "bin": [
                     "bin/xhprofile"
-                ]
+                ],
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lox/xhprof",
+                    "reference": "master"
+                }
             }
         }
     ],
