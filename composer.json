@@ -59,7 +59,7 @@
         {
             "type": "package",
             "package": {
-                "name": "facebook/xhprof",
+                "name": "lox/xhprof",
                 "type": "library",
                 "description": "XHProf: A Hierarchical Profiler for PHP",
                 "keywords": ["profiling", "performance"],
@@ -77,7 +77,7 @@
                 },
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/phacility/xhprof",
+                    "url": "https://github.com/lox/xhprof",
                     "reference": "master"
                 }
             }
