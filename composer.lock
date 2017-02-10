@@ -1478,11 +1478,11 @@
             "time": "2015-06-14T21:17:01+00:00"
         },
         {
-            "name": "facebook/xhprof",
+            "name": "lox/xhprof",
             "version": "master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/phacility/xhprof",
+                "url": "https://github.com/lox/xhprof",
                 "reference": "master"
             },
             "require": {
@@ -2815,7 +2815,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "facebook/xhprof": 20
+        "lox/xhprof": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
