@@ -2,7 +2,11 @@
     "name": "piwik/piwik",
     "type": "application",
     "description": "the leading free/libre analytics platform",
-    "keywords": ["piwik","web","analytics"],
+    "keywords": [
+        "piwik",
+        "web",
+        "analytics"
+    ],
     "homepage": "http://piwik.org",
     "license": "GPL-3.0+",
     "authors": [
@@ -18,7 +22,7 @@
         "wiki": "https://github.com/piwik/piwik/wiki",
         "source": "https://github.com/piwik/piwik"
     },
-    "config":{
+    "config": {
         "platform": {
             "php": "7.1.1"
         }
@@ -61,8 +65,14 @@
             "package": {
                 "name": "lox/xhprof",
                 "type": "library",
-                "license": "Apache-2.0",
                 "version": "master",
+                "description": "XHProf: A Hierarchical Profiler for PHP",
+                "keywords": [
+                    "profiling",
+                    "performance"
+                ],
+                "homepage": "http://pecl.php.net/package/xhprof",
+                "license": "Apache-2.0",
                 "require": {
                     "php": ">=5.2.0"
                 },
@@ -72,11 +82,9 @@
                         "xhprof_lib/utils/xhprof_runs.php"
                     ]
                 },
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/lox/xhprof",
-                    "reference": "master"
-                }
+                "bin": [
+                    "bin/xhprofile"
+                ]
             }
         }
     ],
