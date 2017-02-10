@@ -20,7 +20,7 @@
     },
     "config":{
         "platform": {
-            "php": ">=5.5.9"
+            "php": "5.5.9"
         }
     },
     "require": {
@@ -61,9 +61,6 @@
             "package": {
                 "name": "lox/xhprof",
                 "type": "library",
-                "description": "XHProf: A Hierarchical Profiler for PHP",
-                "keywords": ["profiling", "performance"],
-                "homepage": "http://pecl.php.net/package/xhprof",
                 "license": "Apache-2.0",
                 "version": "master",
                 "require": {
