@@ -16,7 +16,9 @@ module.exports = function (grunt) {
         php: {
             dist: {
                 options: {
-                    port: process.env.PORT + 1 || 8001
+                    port: process.env.PORT + 1 || 8001,
+                    keepalive: true,
+                    open: true
                 }
             },
         },
