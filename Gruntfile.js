@@ -17,6 +17,7 @@ module.exports = function (grunt) {
             dist: {
                 options: {
                     port: process.env.PORT + 1 || 8001,
+                    hostname: "0.0.0.0",
                     keepalive: true,
                     base: './piwik'
                 }
