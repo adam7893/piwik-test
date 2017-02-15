@@ -13,9 +13,5 @@
         "grunt-contrib-watch": "1.0.0",
         "grunt-contrib-uglify": "2.1.0",
         "grunt-express-server": "0.5.3"
-    },
-    "scripts": {
-        "postinstall": "grunt default",
-        "start": "node app.js"
     }
 }
