@@ -9,20 +9,20 @@ module.exports = function (grunt) {
             },
             target: {
                 files: {
-                    
+
                 }
             }
         },
         php: {
             dist: {
                 options: {
-                    port: 5000
+                    port: process.env.PORT + 1 || 8001
                 }
             },
         },
         watch: {
             files: ['**/*.js'],
-            tasks: ['dist']
+            tasks: ['default', 'dist']
         }
     });
 
