@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "126d7da5eef61ae7f0764a2cfdf2c068",
+    "content-hash": "fee158a964386756ecc8a7a7de9b37f7",
     "packages": [
         {
             "name": "composer/semver",
@@ -1478,34 +1478,6 @@
             "time": "2015-06-14T21:17:01+00:00"
         },
         {
-            "name": "lox/xhprof",
-            "version": "master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/lox/xhprof",
-                "reference": "master"
-            },
-            "require": {
-                "php": ">=5.2.0"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "xhprof_lib/utils/xhprof_lib.php",
-                    "xhprof_lib/utils/xhprof_runs.php"
-                ]
-            },
-            "license": [
-                "Apache-2.0"
-            ],
-            "description": "XHProf: A Hierarchical Profiler for PHP",
-            "homepage": "http://pecl.php.net/package/xhprof",
-            "keywords": [
-                "performance",
-                "profiling"
-            ]
-        },
-        {
             "name": "guzzle/guzzle",
             "version": "v3.9.3",
             "source": {
@@ -1600,6 +1572,36 @@
             ],
             "abandoned": "guzzlehttp/guzzle",
             "time": "2015-03-18T18:23:50+00:00"
+        },
+        {
+            "name": "lox/xhprof",
+            "version": "master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lox/xhprof",
+                "reference": "master"
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "bin": [
+                "bin/xhprofile"
+            ],
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "xhprof_lib/utils/xhprof_lib.php",
+                    "xhprof_lib/utils/xhprof_runs.php"
+                ]
+            },
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "XHProf: A Hierarchical Profiler for PHP",
+            "keywords": [
+                "performance",
+                "profiling"
+            ]
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -2824,6 +2826,6 @@
     },
     "platform-dev": [],
     "platform-overrides": {
-        "php": "5.5.9"
+        "php": "7.1.1"
     }
 }
