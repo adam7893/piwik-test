@@ -7,8 +7,7 @@ module.exports = function (grunt) {
         pkg: grunt.file.readJSON('package.json'),
         uglify: {
             build: {
-                src: './piwik',
-                dest: 'building/piwik'
+
             }
         },
         php: {
