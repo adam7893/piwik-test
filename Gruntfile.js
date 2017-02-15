@@ -6,13 +6,9 @@ module.exports = function (grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         uglify: {
-            options: {
-                mangle: false
-            },
-            target: {
-                files: {
-
-                }
+            build: {
+                src: './piwik',
+                dest: 'building/piwik'
             }
         },
         php: {
