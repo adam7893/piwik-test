@@ -18,19 +18,15 @@ module.exports = function (grunt) {
                 options: {
                     port: process.env.PORT + 1 || 8001,
                     keepalive: true,
-                    open: true
+                    base: './piwik'
                 }
             },
-        },
-        watch: {
-            files: ['**/*.js'],
-            tasks: ['default', 'dist']
         }
     });
 
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-express-server');
 
     grunt.registerTask('default', ['php']);
-    grunt.registerTask('test', ['php', 'mocha']);
 }
